@@ -13,7 +13,7 @@ This project aims to predict the intraday and next-day closing prices for the SP
 
 ## Technologies Used
 
-- Python 3.x
+- Python 3.11
 - pandas
 - numpy
 - scikit-learn
