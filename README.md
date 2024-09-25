@@ -107,6 +107,11 @@ The LSTM model:
 - Is trained on 80% of the available data
 - Outputs visualizations comparing actual prices with predicted prices for both training and testing data
 
+### Model scores
+
+**Mean Squared Error:** 6.350823456758687
+**R^2 Score:** 0.9995506180206406
+
 ## Contributing
 
 Contributions to improve the project are welcome. Please follow these steps:
