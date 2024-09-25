@@ -34,7 +34,7 @@ This project aims to predict the intraday and next-day closing prices for the SP
 2. Install the required dependencies:
 
    ```
-   pip install pandas numpy scikit-learn matplotlib joblib alpha_vantage tensorflow
+   pip3 install pandas numpy scikit-learn matplotlib joblib alpha_vantage tensorflow
    ```
 
 3. Set up your Alpha Vantage API key:
@@ -46,30 +46,30 @@ This project aims to predict the intraday and next-day closing prices for the SP
 1. Fetch the latest SPY data:
 
    ```
-   python fetch_spy_data.py
+   python3 fetch_spy_data.py
    ```
 
 2. Train the linear regression prediction model:
 
    ```
-   python predict_spy.py
+   python3 predict_spy.py
    ```
 
 3. Train the LSTM prediction model:
 
    ```
-   python train_lstm.py
+   python3 train_lstm.py
    ```
 
 4. Predict tomorrow's closing price:
 
    ```
-   python predict_tomorrow.py
+   python3 predict_tomorrow.py
    ```
 
 5. Predict intraday prices for tomorrow:
    ```
-   python predict_chart.py
+   python3 predict_chart.py
    ```
 
 ## File Descriptions
