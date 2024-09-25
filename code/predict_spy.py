@@ -54,7 +54,7 @@ plt.xlabel('Time')
 plt.ylabel('Closing Price')
 plt.title('Actual vs Predicted Closing Prices')
 plt.legend()
-plt.savefig('actual_vs_predicted.png')
+plt.savefig('../visualizations/actual_vs_predicted.png')
 plt.show()
 
 print("Model training, evaluation, and visualization completed.")
