@@ -110,6 +110,7 @@ The LSTM model:
 ### Model scores
 
 **Mean Squared Error:** 6.350823456758687
+
 **R^2 Score:** 0.9995506180206406
 
 ## Contributing
