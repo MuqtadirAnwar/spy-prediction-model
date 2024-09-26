@@ -17,7 +17,7 @@ if __name__ == '__main__':
     historical_data = fetch_historical_data(api_key)
 
     # Save data to CSV files
-    intraday_data.to_csv('../data/spy_intraday_data.csv')
-    historical_data.to_csv('../data/spy_historical_data.csv')
+    intraday_data.to_csv('../data/spy_intraday_data.csv') # Change File Path As Needed
+    historical_data.to_csv('../data/spy_historical_data.csv') # Change File Path As Needed
 
     print("Intraday and historical data for SPY have been fetched and saved to CSV files.")
